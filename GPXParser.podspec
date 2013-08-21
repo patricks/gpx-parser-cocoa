@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   }
   s.author       = { "Jelle Vandebeeck" => "jelle@fousa.be" }
   s.source       = { :git => "https://github.com/bowstreet/gpx-parser-ios.git", :tag => "1.0" }
-  s.platform     = :ios, '4.0'
+  s.platform     = :ios, '6.0'
 
   s.source_files = 'GPXParser/**/*.{h,m}'
   s.frameworks  = 'MapKit', 'CoreLocation'
