@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5954DC15B6F24A00A03429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E400561D148D79B500EB22B9 /* Foundation.framework */; };
+		4008E66B17C4D8100011C41B /* Fix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E65C17C4D8100011C41B /* Fix.h */; };
+		4008E66C17C4D8100011C41B /* Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E65D17C4D8100011C41B /* Fix.m */; };
+		4008E66D17C4D8100011C41B /* GPX.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E65E17C4D8100011C41B /* GPX.h */; };
+		4008E66E17C4D8100011C41B /* GPX.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E65F17C4D8100011C41B /* GPX.m */; };
+		4008E66F17C4D8100011C41B /* Track.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E66017C4D8100011C41B /* Track.h */; };
+		4008E67017C4D8100011C41B /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E66117C4D8100011C41B /* Track.m */; };
+		4008E67117C4D8100011C41B /* Waypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E66217C4D8100011C41B /* Waypoint.h */; };
+		4008E67217C4D8100011C41B /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E66317C4D8100011C41B /* Waypoint.m */; };
+		4008E67317C4D8100011C41B /* GPXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E66517C4D8100011C41B /* GPXParser.h */; };
+		4008E67417C4D8100011C41B /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E66617C4D8100011C41B /* GPXParser.m */; };
+		4008E67517C4D8100011C41B /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E66717C4D8100011C41B /* Parser.h */; };
+		4008E67617C4D8100011C41B /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E66817C4D8100011C41B /* Parser.m */; };
+		4008E67717C4D8100011C41B /* TCXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4008E66917C4D8100011C41B /* TCXParser.h */; };
+		4008E67817C4D8100011C41B /* TCXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008E66A17C4D8100011C41B /* TCXParser.m */; };
+		4008E67A17C4E1040011C41B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4008E67917C4E1040011C41B /* MapKit.framework */; };
+		4008E67C17C4E10D0011C41B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4008E67B17C4E10D0011C41B /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E5954F215B6F24A00A03429 /* libGPXParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGPXParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E66CA9115D4100500F35BED /* buildnumber.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = buildnumber.xcconfig; sourceTree = "<group>"; };
+		1E754DC61621BC170070AB92 /* GPXParser.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GPXParser.xcconfig; sourceTree = "<group>"; };
+		4008E65C17C4D8100011C41B /* Fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fix.h; sourceTree = "<group>"; };
+		4008E65D17C4D8100011C41B /* Fix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fix.m; sourceTree = "<group>"; };
+		4008E65E17C4D8100011C41B /* GPX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
+		4008E65F17C4D8100011C41B /* GPX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPX.m; sourceTree = "<group>"; };
+		4008E66017C4D8100011C41B /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		4008E66117C4D8100011C41B /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		4008E66217C4D8100011C41B /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
+		4008E66317C4D8100011C41B /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
+		4008E66517C4D8100011C41B /* GPXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPXParser.h; sourceTree = "<group>"; };
+		4008E66617C4D8100011C41B /* GPXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPXParser.m; sourceTree = "<group>"; };
+		4008E66717C4D8100011C41B /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		4008E66817C4D8100011C41B /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		4008E66917C4D8100011C41B /* TCXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCXParser.h; sourceTree = "<group>"; };
+		4008E66A17C4D8100011C41B /* TCXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCXParser.m; sourceTree = "<group>"; };
+		4008E67917C4E1040011C41B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4008E67B17C4E10D0011C41B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E400561D148D79B500EB22B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5954DB15B6F24A00A03429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4008E67C17C4E10D0011C41B /* CoreLocation.framework in Frameworks */,
+				4008E67A17C4E1040011C41B /* MapKit.framework in Frameworks */,
+				1E5954DC15B6F24A00A03429 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E66CA8F15D40FF600F35BED /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1E754DC61621BC170070AB92 /* GPXParser.xcconfig */,
+				1E66CA9115D4100500F35BED /* buildnumber.xcconfig */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		4008E65A17C4D8100011C41B /* GPXParser */ = {
+			isa = PBXGroup;
+			children = (
+				4008E65B17C4D8100011C41B /* Models */,
+				4008E66417C4D8100011C41B /* Parsers */,
+			);
+			name = GPXParser;
+			path = ../GPXParser;
+			sourceTree = "<group>";
+		};
+		4008E65B17C4D8100011C41B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4008E65C17C4D8100011C41B /* Fix.h */,
+				4008E65D17C4D8100011C41B /* Fix.m */,
+				4008E65E17C4D8100011C41B /* GPX.h */,
+				4008E65F17C4D8100011C41B /* GPX.m */,
+				4008E66017C4D8100011C41B /* Track.h */,
+				4008E66117C4D8100011C41B /* Track.m */,
+				4008E66217C4D8100011C41B /* Waypoint.h */,
+				4008E66317C4D8100011C41B /* Waypoint.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4008E66417C4D8100011C41B /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				4008E66517C4D8100011C41B /* GPXParser.h */,
+				4008E66617C4D8100011C41B /* GPXParser.m */,
+				4008E66717C4D8100011C41B /* Parser.h */,
+				4008E66817C4D8100011C41B /* Parser.m */,
+				4008E66917C4D8100011C41B /* TCXParser.h */,
+				4008E66A17C4D8100011C41B /* TCXParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		E400560F148D79B500EB22B9 = {
+			isa = PBXGroup;
+			children = (
+				4008E65A17C4D8100011C41B /* GPXParser */,
+				E400561C148D79B500EB22B9 /* Frameworks */,
+				1E66CA8F15D40FF600F35BED /* Support */,
+				E400561B148D79B500EB22B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E400561B148D79B500EB22B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5954F215B6F24A00A03429 /* libGPXParser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E400561C148D79B500EB22B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4008E67B17C4E10D0011C41B /* CoreLocation.framework */,
+				4008E67917C4E1040011C41B /* MapKit.framework */,
+				E400561D148D79B500EB22B9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E59558B15B6FD8800A03429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4008E67317C4D8100011C41B /* GPXParser.h in Headers */,
+				4008E66F17C4D8100011C41B /* Track.h in Headers */,
+				4008E66D17C4D8100011C41B /* GPX.h in Headers */,
+				4008E67517C4D8100011C41B /* Parser.h in Headers */,
+				4008E67717C4D8100011C41B /* TCXParser.h in Headers */,
+				4008E66B17C4D8100011C41B /* Fix.h in Headers */,
+				4008E67117C4D8100011C41B /* Waypoint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E5954CB15B6F24A00A03429 /* GPXParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5954EF15B6F24A00A03429 /* Build configuration list for PBXNativeTarget "GPXParser" */;
+			buildPhases = (
+				1E5954CC15B6F24A00A03429 /* Sources */,
+				1E5954DB15B6F24A00A03429 /* Frameworks */,
+				1E59558B15B6FD8800A03429 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPXParser;
+			productName = GPXParser;
+			productReference = 1E5954F215B6F24A00A03429 /* libGPXParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4005611148D79B500EB22B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = E4005614148D79B500EB22B9 /* Build configuration list for PBXProject "GPXParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				tr,
+				hr,
+				zh,
+				"zh-Hans",
+				ro,
+				hu,
+			);
+			mainGroup = E400560F148D79B500EB22B9;
+			productRefGroup = E400561B148D79B500EB22B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5954CB15B6F24A00A03429 /* GPXParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5954CC15B6F24A00A03429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4008E67417C4D8100011C41B /* GPXParser.m in Sources */,
+				4008E67817C4D8100011C41B /* TCXParser.m in Sources */,
+				4008E67217C4D8100011C41B /* Waypoint.m in Sources */,
+				4008E67017C4D8100011C41B /* Track.m in Sources */,
+				4008E66C17C4D8100011C41B /* Fix.m in Sources */,
+				4008E67617C4D8100011C41B /* Parser.m in Sources */,
+				4008E66E17C4D8100011C41B /* GPX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E5954F015B6F24A00A03429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GPXParser.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Vendor\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "../Resources/GPXParser-Info.plist";
+				PRODUCT_NAME = GPXParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E5954F115B6F24A00A03429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GPXParser.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Vendor\"",
+				);
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "../Resources/GPXParser-Info.plist";
+				PRODUCT_NAME = GPXParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PRODUCT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E400563C148D79B500EB22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E66CA9115D4100500F35BED /* buildnumber.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "../Resources/GPXParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E400563D148D79B500EB22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E66CA9115D4100500F35BED /* buildnumber.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "../Resources/GPXParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5954EF15B6F24A00A03429 /* Build configuration list for PBXNativeTarget "GPXParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5954F015B6F24A00A03429 /* Debug */,
+				1E5954F115B6F24A00A03429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4005614148D79B500EB22B9 /* Build configuration list for PBXProject "GPXParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400563C148D79B500EB22B9 /* Debug */,
+				E400563D148D79B500EB22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4005611148D79B500EB22B9 /* Project object */;
+}

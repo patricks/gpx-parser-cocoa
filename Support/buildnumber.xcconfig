@@ -1,0 +1,4 @@
+#include "GPXParser.xcconfig"
+
+BUILD_NUMBER = 1
+VERSION_STRING = 1.0.0
