@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "GPXParser"
   s.version      = "1.0"
   s.summary      = "Parse GPX & TCX files for iOS applications."
-  s.homepage     = "https://github.com/fousa/gpx-parser-ios"
+  s.homepage     = "https://github.com/bowstreet/gpx-parser-ios"
   s.license = { :type => 'MIT', :text => <<-LICENSE
                 Copyright (c) 2012 Jelle Vandebeeck
                 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
               LICENSE
   }
   s.author       = { "Jelle Vandebeeck" => "jelle@fousa.be" }
-  s.source       = { :git => "https://github.com/fousa/gpx-parser-ios.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/bowstreet/gpx-parser-ios.git", :tag => "1.0" }
   s.platform     = :ios, '4.0'
 
   s.source_files = 'GPXParser/**/*.{h,m}'
