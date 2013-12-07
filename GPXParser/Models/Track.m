@@ -26,7 +26,7 @@
 #pragma mark - String
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"<Track (fixes %i)>", _fixes.count];
+    return [NSString stringWithFormat:@"<Track (fixes %lu)>", (unsigned long)_fixes.count];
 }
 
 @end
