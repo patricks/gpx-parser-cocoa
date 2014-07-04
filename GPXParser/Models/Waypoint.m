@@ -11,6 +11,7 @@
 @implementation Waypoint
 @synthesize name=_name;
 @synthesize type=_type;
+@synthesize wptDescritption=_wptDescritption;
 
 #pragma mark - String
 

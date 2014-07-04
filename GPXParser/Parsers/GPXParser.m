@@ -37,6 +37,11 @@
 	}
     
     // Waypoint name
+    if ([elementName isEqualToString:@"name"] &&  self.waypoint) {
+        self.currentString = [NSMutableString string];
+    }
+
+    // Waypoint description
     if ([elementName isEqualToString:@"desc"] &&  self.waypoint) {
         self.currentString = [NSMutableString string];
     }
@@ -71,12 +76,18 @@
         return;
     }
     
-    // Waypoint name
-    if ([elementName isEqualToString:@"desc"] && self.waypoint) {
+    // End Waypoint name
+    if ([elementName isEqualToString:@"name"] && self.waypoint) {
         self.waypoint.name = self.currentString;
         self.currentString = nil;
     }
     
+    // End Waypoint description
+    if ([elementName isEqualToString:@"desc"] && self.waypoint) {
+        self.waypoint.wptDescritption = self.currentString;
+        self.currentString = nil;
+    }
+
     // End waypoint
     if([elementName isEqualToString:@"wpt"] && self.waypoint) {
         [self.gpx.waypoints addObject:self.waypoint];
